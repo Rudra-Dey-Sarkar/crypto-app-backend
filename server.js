@@ -392,7 +392,7 @@ app.put("/edit-criteria", async (req, res) => {
 //Edit criteria feature
 async function Edit(data) {
     try {
-        const response = await fetch("http://localhost:5000/edit-criteria", {
+        const response = await fetch(`${process.env.BACKEND}/edit-criteria`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
