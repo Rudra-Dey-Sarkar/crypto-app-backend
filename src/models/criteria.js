@@ -1,3 +1,4 @@
+//Creating database schema models
 const mongoose = require("mongoose");
 
 const criteriaSchemaModel = new mongoose.Schema({

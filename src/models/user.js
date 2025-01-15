@@ -1,3 +1,4 @@
+//Creating database schema models
 const mongoose = require("mongoose");
 //User schema model creation 
 const userSchemaModel = new mongoose.Schema({
