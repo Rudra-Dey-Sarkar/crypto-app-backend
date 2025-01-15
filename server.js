@@ -411,6 +411,8 @@ async function Edit(data) {
     }
 }
 //continous Fetch the crypto prices every 5 second
+//Please remove the comment from the below function when you need to check the auto fetch real time 
+//coin prices
 // cron.schedule('*/5 * * * * *', async () => {
 //     const response = await FetchAllCrypto();
 //     if (response.status === 200) {
